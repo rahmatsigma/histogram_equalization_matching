@@ -28,10 +28,11 @@ Before running the script, ensure you have Python 3 installed along with the req
    cd histogram_equalization_matching
 
    
-Create and activate a virtual environment (optional but recommended):
+2. **Create and activate a virtual environment** (optional but recommended):
 
   ```bash
   python -m venv .venv
+
 
 # On Windows:
 .\.venv\Scripts\activate
@@ -39,7 +40,8 @@ Create and activate a virtual environment (optional but recommended):
 # On macOS/Linux:
 source .venv/bin/activate
 
-Install the dependencies:
+
+3. Install the dependencies:
 
   ```bash
 pip install opencv-python numpy matplotlib scikit-image
@@ -52,7 +54,7 @@ source.jpg: The original image you want to enhance.
 
 target.jpg: The reference image whose histogram you want to match.
 
-Run the Python script:
+4. Run the Python script:
 
   ```bash
 python histogram_processing.py
